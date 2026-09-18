@@ -1,0 +1,40 @@
+name: Feature request
+description: Suggest a capability or an improvement to your workflow.
+title: '[Feature] '
+body:
+  - type: markdown
+    attributes:
+      value: This issue is public. Do not include patient data, private DICOM files, or credentials.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - 3D visualization
+        - MPR and measurements
+        - 2D stack and cine
+        - DICOM and data workflows
+        - Performance and compatibility
+        - Website or documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: What are you trying to achieve, and what is difficult today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: Describe the behavior you would like and how it would help.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or workarounds
+      description: Optional. What have you tried, and what is missing?
