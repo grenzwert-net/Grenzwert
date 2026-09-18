@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Account and billing support
+    url: mailto:support@grenzwert.net
+    about: Contact support privately about accounts, subscriptions, or payments.
+  - name: Report a security vulnerability privately
+    url: https://github.com/grenzwert-net/Grenzwert/blob/HEAD/SECURITY.md
+    about: Follow the private reporting instructions instead of posting vulnerability details publicly.

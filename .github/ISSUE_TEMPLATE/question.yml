@@ -1,0 +1,20 @@
+name: Usage question
+description: Ask about viewer features, compatibility, or documentation.
+title: '[Question] '
+body:
+  - type: markdown
+    attributes:
+      value: This issue is public. Do not include patient data, private DICOM files, or credentials.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What are you trying to do, and what would you like clarified?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: What have you tried?
+      description: Include relevant documentation or existing issues. For compatibility questions, include the browser,
+        OS, and GPU if known.
