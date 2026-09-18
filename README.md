@@ -4,7 +4,7 @@ DICOM viewer with cinematic 3D rendering in your browser.
 
 Try the [demo with sample CT and MRI data](https://grenzwert.net/demo/) or visit [grenzwert.net](https://grenzwert.net/).
 
-![Grenzwert 3D viewer with the MANIX CT sample](docs/images/volume-rendering.webp)
+<a href="docs/images/volume-rendering.webp"><img src="docs/images/volume-rendering.webp" alt="Grenzwert 3D viewer with the MANIX CT sample" width="880"></a>
 
 The **free demo** runs with built-in CT and MRI datasets, without an account or installation. **Pro** adds local import of compatible DICOM files and folders: selected files are processed on your device and are not uploaded to a Grenzwert server. Requires WebGPU and a compatible desktop browser; see [browser requirements](https://grenzwert.net/en/#compatibility).
 
@@ -18,6 +18,32 @@ The **free demo** runs with built-in CT and MRI datasets, without an account or 
 - **Local DICOM import in Pro**, with a series browser and metadata inspection.
 
 Built with C++, WebAssembly, and WebGPU, using [Diligent Engine](https://github.com/DiligentGraphics/DiligentEngine), [Emscripten](https://emscripten.org/), and [GDCM](https://github.com/malaterre/GDCM).
+
+<table>
+  <tr>
+    <th width="50%">MPR and measurements</th>
+    <th width="50%">2D stack and cine</th>
+  </tr>
+  <tr>
+    <td><a href="docs/images/grenzwert-mpr-measurements.webp"><img src="docs/images/grenzwert-mpr-measurements.webp" alt="Linked MPR views with distance, angle, and ROI measurements" width="440"></a></td>
+    <td><a href="docs/images/grenzwert-2d-stack-cine.webp"><img src="docs/images/grenzwert-2d-stack-cine.webp" alt="MRI series in the 2D viewer with frame and playback controls" width="440"></a></td>
+  </tr>
+</table>
+
+## Gallery
+
+MANIX and MECANIX CT datasets rendered in Grenzwert. Click an image to view it at full size.
+
+<table>
+  <tr>
+    <td width="50%" align="center"><a href="docs/images/ct-manix-skull-bone-side-view.webp"><img src="docs/images/ct-manix-skull-bone-side-view.webp" alt="MANIX head CT with a bone preset, viewed from the side" width="240"></a><br>Bone preset</td>
+    <td width="50%" align="center"><a href="docs/images/ct-manix-head-bone-soft-tissue.webp"><img src="docs/images/ct-manix-head-bone-soft-tissue.webp" alt="MANIX head CT combining bone and soft tissue" width="240"></a><br>Bone and soft tissue</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="docs/images/ct-manix-head-transparent-tissue.webp"><img src="docs/images/ct-manix-head-transparent-tissue.webp" alt="MANIX head CT with transparent tissue revealing internal structures" width="240"></a><br>Transparent tissue</td>
+    <td align="center"><a href="docs/images/ct-mecanix-torso-lungs-ribs.webp"><img src="docs/images/ct-mecanix-torso-lungs-ribs.webp" alt="MECANIX torso CT showing lungs and ribs" width="240"></a><br>Lungs and ribs</td>
+  </tr>
+</table>
 
 ## Feedback
 
