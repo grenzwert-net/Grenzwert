@@ -36,12 +36,12 @@ MANIX and MECANIX CT datasets rendered in Grenzwert. Click an image to view it a
 
 <table>
   <tr>
-    <td width="50%" align="center"><a href="docs/images/ct-manix-skull-bone-side-view.webp"><img src="docs/images/ct-manix-skull-bone-side-view.webp" alt="MANIX head CT with a bone preset, viewed from the side" width="100%"></a><br>Bone preset</td>
-    <td width="50%" align="center"><a href="docs/images/ct-manix-head-bone-soft-tissue.webp"><img src="docs/images/ct-manix-head-bone-soft-tissue.webp" alt="MANIX head CT combining bone and soft tissue" width="100%"></a><br>Bone and soft tissue</td>
+    <td width="50%" align="center"><a href="docs/images/ct-manix-skull-bone-side-view.webp"><img src="docs/images/ct-manix-skull-bone-side-view.webp" alt="MANIX head CT with a bone preset, viewed from the side" width="100%"></a></td>
+    <td width="50%" align="center"><a href="docs/images/ct-manix-head-bone-soft-tissue.webp"><img src="docs/images/ct-manix-head-bone-soft-tissue.webp" alt="MANIX head CT combining bone and soft tissue" width="100%"></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="docs/images/ct-manix-head-transparent-tissue.webp"><img src="docs/images/ct-manix-head-transparent-tissue.webp" alt="MANIX head CT with transparent tissue revealing internal structures" width="100%"></a><br>Transparent tissue</td>
-    <td align="center"><a href="docs/images/ct-mecanix-torso-lungs-ribs.webp"><img src="docs/images/ct-mecanix-torso-lungs-ribs.webp" alt="MECANIX torso CT showing lungs and ribs" width="100%"></a><br>Lungs and ribs</td>
+    <td align="center"><a href="docs/images/ct-manix-head-transparent-tissue.webp"><img src="docs/images/ct-manix-head-transparent-tissue.webp" alt="MANIX head CT with transparent tissue revealing internal structures" width="100%"></a></td>
+    <td align="center"><a href="docs/images/ct-mecanix-torso-lungs-ribs.webp"><img src="docs/images/ct-mecanix-torso-lungs-ribs.webp" alt="MECANIX torso CT showing lungs and ribs" width="100%"></a></td>
   </tr>
 </table>
 
