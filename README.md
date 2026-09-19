@@ -1,4 +1,4 @@
-<h1><img src="docs/images/grenzwert-logo.png" alt="" width="32"> Grenzwert</h1>
+<h1><img src="docs/images/grenzwert-logo.png" alt="" width="32" align="absmiddle"> Grenzwert</h1>
 
 DICOM viewer with cinematic 3D rendering in your browser.
 
